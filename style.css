@@ -1,0 +1,28 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+header {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+    background-color: rgb(197, 203, 212);
+    line-height:3em;
+}
+a{ 
+    text-decoration: none;
+}
+h1 {
+    margin-right:auto;
+}
+.item {
+    list-style: none;
+    display:inline-block;
+    padding: 0 1.5em;
+}
+#logo {
+    width:25%;
+    line-height: 1em;
+}
