@@ -32,7 +32,7 @@ h1 {
 }
 #logo {
     width:25%;
-    line-height: 1em;
+    line-height:15%;
 }
 #svg {
     margin-top: -1.2em;
@@ -41,4 +41,10 @@ h1 {
 #svg:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+#intro {
+    background-image:url(cookies.jpeg);
+    background-size: cover;
+    height:50vh;
+    background-repeat: no-repeat;
 }
